@@ -1,0 +1,2 @@
+PyCryptodome>=3.11
+sympy>=1.8

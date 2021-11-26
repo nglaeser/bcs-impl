@@ -2,6 +2,7 @@
 
 ## Dependencies
 - `emp-ag2pc`: Follow the instructions [here](https://github.com/emp-toolkit/emp-ag2pc).
+- Run `pip install -r requirements.txt`
 
 ## Install
 ```
