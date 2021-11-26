@@ -1,3 +1,10 @@
+# compiled code
 build/
+
+# emp
 emp-*
 install.py
+
+# output files
+data/
+circuit.txt
