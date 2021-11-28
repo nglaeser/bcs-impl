@@ -3,6 +3,7 @@
 ## Dependencies
 - `emp-ag2pc`: Follow the instructions [here](https://github.com/emp-toolkit/emp-ag2pc).
 - Run `pip install -r requirements.txt`
+- [Boost](https://www.boost.org/doc/libs/1_77_0/more/getting_started/index.html)
 
 ## Install
 ```
@@ -14,6 +15,13 @@ make -C build main
 ```
 
 ## Usage
+To generate the input files:
 ```
-./build/bin/main [arguments]
+python gen_data.py [-h] [-g G] [-n N]
+```
+Run with `-h` for more usage information.
+
+To generate the rerandomization circuit:
+```
+./build/bin/main -c
 ```

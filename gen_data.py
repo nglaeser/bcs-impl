@@ -134,7 +134,7 @@ if __name__ == "__main__":
 
     print("Generating keys...")
     pk,sk = keygen(args.g)
-    print(pk)
+    # print(pk)
     print("done.\nGenerating r,c...")
     r = random.getrandbits(args.n)
     ctxt = enc(pk,0)

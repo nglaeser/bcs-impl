@@ -8,3 +8,6 @@ install.py
 # output files
 data/
 circuit.txt
+
+# vscode
+.vscode/
