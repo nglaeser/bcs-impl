@@ -25,3 +25,8 @@ To generate the rerandomization circuit:
 ```
 ./build/bin/main -c
 ```
+Count AND gates with
+```
+grep AND circuit.txt | wc -l
+```
+For more information about the circuit file format, see [here](https://github.com/MPC-SoK/frameworks/wiki/EMP-toolkit#circuit-format).
